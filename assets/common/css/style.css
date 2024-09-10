@@ -1,0 +1,431 @@
+
+.secondaryFontFamily
+{
+    font-family: 'PT Sans' !important;
+}
+.brandsRaqsOnline > div
+{
+    border-right: solid 1px rgba(105, 105, 134, .25);
+}
+.bgLightRaqsOnline
+{
+    background-color: #f9f3ff;
+}
+.brandsRaqsOnline > div:last-child
+{
+    border-right: none;
+}
+.raqsOnlineList
+{
+    list-style: none;
+}
+.heroBg
+{
+    background-position: center;
+    background-size: 100% 100%;
+     min-height: 80vh;
+     background-repeat: no-repeat;
+}
+.raqsOnlineList ::before
+{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    color: #8339ea;
+    display: inline-block;
+    font-weight: 900;
+    margin-left: -16px;
+    margin-right: 8px;
+}
+.subHeader
+{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    color: #696986;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+.subHeaderV2
+{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    color: #404040;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-shadow: 0px 2px 0px rgba(234, 207, 253, 0.5);
+}
+.subHeader::before
+{
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    background-color: #696986;
+}
+
+.subHeaderV2::before
+{
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    background-color: rgba(64, 64, 64, 0.5);
+    
+}
+
+.subHeaderV2::after
+{
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: rgba(64, 64, 64, 0.5);
+    
+}
+
+.ripple-hero20::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #b54bea;
+    opacity: .8;
+    -webkit-animation: ripple-hero20-1 2s infinite ease-in-out;
+    animation: ripple-hero20-1 2s infinite ease-in-out;
+    z-index: -1;
+}
+
+@-webkit-keyframes ripple-hero20-1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+.raqsOnlineLevels
+{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #48488f;
+    cursor: pointer;
+    line-height: 48px;
+
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .8s ease-out;
+  -o-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+.raqsOnlineLevels li:hover, .raqsOnlineLevels .active
+{
+    text-decoration: underline;
+    color: #b54bea;
+}
+.raqsOnlineLevels li:hover::before, .raqsOnlineLevels .active::before
+{
+    content: "\f061";
+    display: inline-block;
+    color: #b54bea;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.hover-zoom:hover img, .hover-zoom:hover video {
+    transform: scale(1.1);
+}
+.hover-zoom img, .hover-zoom video {
+    transition: all .3s linear;
+}
+.itemRaqsOnlineMap
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(186, 135, 220);
+    border-radius: 10px;
+    background-color: rgb(186, 135, 220);
+    box-shadow: 22.627px 22.627px 84px 0px rgba(0, 0, 255, 0.15);
+    cursor: pointer;
+}
+
+.bgRaqsOnlineClasses
+{
+    background-position: center;
+    background-size: cover;
+    
+}
+.raqsOnlineTestimonialStars
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.raqsOnlineTestimonialStars li{
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #b54bea;
+}
+.textTestimonialRaqsOnline::before {
+    content: '"';
+    display: inline-block;
+    color: #8339ea;
+    font-size: 36px;
+    line-height: 0;
+    bottom: -12px;
+    position: relative;
+}
+
+.textTestimonialRaqsOnline::after {
+    content: '"';
+    display: inline-block;
+    color: #8339ea;
+    font-size: 36px;
+    line-height: 0;
+    bottom: -12px;
+    position: relative;
+}
+
+.raqsOnlineIconRandom
+{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(72, 72, 143);
+    width: 15px;
+    height: 15px;
+    margin-top: 75px;
+    position: relative;
+}
+
+.raqsOnlineIconRandom::after
+{
+    width: 1px;
+    height: 80px;
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 15px;
+    margin-left: 6px;
+    background-color: rgb(72, 72, 143);
+}
+.raqsOnlineIconTestimonial
+{
+    display: block;
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    margin-top: 50px;
+    opacity: .5;
+}
+.allPlataformsRaqsOnline
+{
+    text-align: center;
+}
+.allPlataformsRaqsOnline a{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.allPlataformsRaqsOnline a svg path {
+    fill: #8c92a4;
+    -webkit-transition: fill .3s;
+    transition: fill .3s;
+}
+
+.allPlataformsRaqsOnline a:hover svg path {
+    fill: #b54bea;
+}
+
+.allPlataformsRaqsOnline a:hover svg {
+    top: -5px;
+}
+.allPlataformsRaqsOnline a svg {
+    position: relative;
+    top: 0;
+    -webkit-transition: top .3s;
+    transition: top .3s;
+}
+.raqsOnlineDivider
+{
+    width: 25%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(105, 105, 134);
+}
+.footerRaqsOnline li
+{
+    position: relative;
+}
+
+.footerRaqsOnline li>a
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #48488f;
+
+    margin-top: 8px;
+    display: inline-block;
+    
+    -webkit-transition: all .8s ease-out;
+  -moz-transition: all .8s ease-out;
+  -o-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+.footerRaqsOnline li:hover>a,.footerRaqsOnline li:active>a
+{
+    color: #b54bea;
+    position: relative;
+    top: -3px;
+}
+
+.footerRaqsOnline li::after
+{
+    content: "|";
+    display: inline-block;
+    color: #48488f;
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+.footerRaqsOnline li:last-child::after
+{
+    display: none;
+}
+
+.iconRaqsOnlineBg1
+{
+    position: absolute;
+    width: 30%;
+    right: 3px;
+    bottom: 20px;
+    transform: translate(50%, 50%);
+    height: auto;
+    opacity: .09;
+    min-width: 325px;
+}
+
+.animateRotationSlow
+{
+    animation: rotateSlow 120s linear 0s infinite normal forwards;
+}
+
+.videoContainerRaqsOnline
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: none;    
+}
+.videoContainerRaqsOnline video
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+@keyframes rotateSlow {
+    0% {
+        transform: translate(50%, 50%) rotate(0);
+    }
+
+    100% {
+        transform: translate(50%, 50%) rotate(359deg);
+    }
+}
+
+.textHeroContent
+{
+    margin-right: 15%;
+    margin-left: 5%;
+}
+@media only screen and (max-width:1400px) {
+    .textHeroContent
+    {
+        margin-right: 15%;
+        margin-left: 0;
+    }
+    .heroBg
+    {
+        min-height: 75vh;
+    }
+}
+@media only screen and (max-width:1300px) {
+    .textHeroContent
+    {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+}
+@media only screen and (max-width:1200px) {
+    .textHero23 {
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .textHeroContent
+    {
+        margin-right: initial;
+        margin: auto;
+    }
+    .heroBg
+    {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .textHero23 {
+        max-width: 350px;
+    }
+
+    .subHeader::before,.subHeaderV2::before,.subHeaderV2::after
+    {
+        width: 15px;
+    }
+
+
+}
+
+/* BOOSTRAP AJUST */
+@media (min-width: 1200px){
+    .h1, h1 {
+        font-size: 1.9rem !important;
+    }   
+}
+/* BOOSTRAP AJUST */
